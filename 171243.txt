@@ -34,3 +34,6 @@ $ git merge bug3
 $ git push --force --all origin
 $ git log Ги прикажува сите logs од досегашните промени
 $ git add logs.txt
+$ git add 171243.txt
+$ git commit -m "final commit"
+$ git push --all origin
