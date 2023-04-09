@@ -1,0 +1,36 @@
+$ git init Ја иницијализирам гит репозиторијата
+$ git remote add origin https://github.com/TeaK99/SI_2023_lab1_171243.git Ја поврзувам со ремоте 
+$ echo "Tea Kochovska 171243" >> README.md Создава фајл со име и индекс
+$ git add README.md Го додавам фајлот во локален репозиториум 
+$ git commit -m "initial commit" Прави commit на сите додадени фајлови
+$ git add SILab1.java Го додавам фајлот со содржина на класата
+$ git commit -m "add java class" 
+$ git push --all origin Синхронизира гранките од локален со оддалечен репозториум
+$ git branch bug1 Ги создава гранките
+$ git branch bug2
+$ git branch bug3
+$ git checkout bug1 Се префлра на Bug1 гранка
+$ git commit -am "Fix wrong loop for reading"
+$ git checkout bug2
+$ git commit -am "Fix wrong condition in filterOddNumbers"
+$ git checkout bug3
+$ git commit -am "Fix method sumEvenNumbers"
+$ git push origin bug1 Синхронизира багови со origin
+$ git push origin bug2
+$ git push origin bug3
+$ git checkout master Се префрла на master
+$ git merge bug1  (Нема конфликт со Fast-forward) Спојува bug1 со master
+$ git push --all origin
+$ git merge bug2  (Нема конфликт кај ort стратегија)
+$ git push --all origin
+$ git checkout bug3
+$ git rebase master bug3 (Има конфликт во SILab1.java пробав да го разрешам, но не успеав целосно) Ја менува основата на гранката
+$ git checkout master
+$ git merge bug3 (Има конфликт,поради rebase не се разрешува)
+$ git checkout master
+$ git add SILab1.java 
+$ git checkout master
+$ git merge bug3 
+$ git push --force --all origin
+$ git log Ги прикажува сите logs од досегашните промени
+$ git add logs.txt

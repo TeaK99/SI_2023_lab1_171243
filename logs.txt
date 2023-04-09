@@ -1,0 +1,30 @@
+commit 87e62e0353b1b292bbab1801d1ac08b01c84c6eb (HEAD -> master, origin/master)
+Merge: af3acda b7699d0
+Author: TeaK99 <teakocovska99@gmail.com>
+Date:   Sun Apr 9 19:56:03 2023 +0200
+
+    Merge branch 'bug2'
+
+commit b7699d00c0350653275399400c909ad158762896 (origin/bug2, bug2)
+Author: TeaK99 <teakocovska99@gmail.com>
+Date:   Sun Apr 9 19:50:32 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit af3acdaedb06a219dbe00a1aaa91a0d6f9e4b76f (origin/bug1, bug1)
+Author: TeaK99 <teakocovska99@gmail.com>
+Date:   Sun Apr 9 19:48:16 2023 +0200
+
+    Fix wrong loop for reading
+
+commit a072eaa757ae43d2fa348eb2e58703c27b01295d
+Author: TeaK99 <teakocovska99@gmail.com>
+Date:   Sun Apr 9 19:34:12 2023 +0200
+
+    add java class
+
+commit 78bb0ad7f702dca0b3e93d6754393484b60c78db
+Author: TeaK99 <teakocovska99@gmail.com>
+Date:   Sun Apr 9 19:31:17 2023 +0200
+
+    initial commit
